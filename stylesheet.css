@@ -1,0 +1,150 @@
+html, body,            
+ul, ol, li,            
+h1, h2, h3, h4, h5, h6, p, div {            
+margin: 0;            
+padding: 0;            
+}     
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    }
+
+.content-wrapper {
+    height: 934px;
+    padding-bottom: 10px;
+    background-color: #f9fffa;
+    text-align: center;
+    }
+
+.container {
+    width: 900px;
+    padding: 015px;
+    margin: 0 auto;
+    }
+
+ .heading {
+     padding-top: 20px;
+     padding-bottom: 50px;
+     color:rgb(31, 1, 1);
+     font-size: 25px;
+
+ }   
+
+.heading h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+.proces {
+    float: left;
+    width: 25%;
+   
+}
+
+.border1 {
+    position: absolute;
+    border: 4px solid #9e9e9e;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    right: 980px;
+}
+
+.border2 {
+    position: absolute;
+    border: 4px solid #9e9e9e;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    left: 610px;
+}
+
+.border3 {
+    position: absolute;
+    border: 4px solid #9e9e9e;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    left: 983px;
+}
+
+.border1:hover {
+    border: 4px solid #233E8B;
+    outline: solid 8px #77E4D4;
+    transition: outline 0.3s linear;
+    margin: 4px;
+}
+
+.border2:hover {
+    border: 4px solid #233E8B;
+    outline: solid 8px #77E4D4;
+    transition: outline 0.3s linear;
+    margin: 4px;
+}
+
+.border3:hover {
+    border: 4px solid #233E8B;
+    outline: solid 8px #77E4D4;
+    transition: outline 0.3s linear;
+    margin: 4px;
+}
+
+.text-in-border1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}   
+
+.text-in-border2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+
+.btn-wrapper {
+    margin-top: 370px;
+  }
+  
+.btn-wrapper p {
+    margin: 20px 0;
+  }
+  
+.play {
+    background-color: #2ec070;
+    margin-right: 10px;
+  }
+  
+.book {
+    background-color: #f2f7df;
+  }
+  
+.btn {
+    padding: 18px 30px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10px;
+    font-size: 20x;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3.5px solid green;
+  }
+  
+.btn:hover {
+    opacity: 1;
+    box-shadow: 5px 10px #a9d83b;
+  }
+  
+.fa {
+    margin-right: 5px;
+  }
